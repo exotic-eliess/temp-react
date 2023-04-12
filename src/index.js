@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import AppTp1 from "./AppTp1";
+import AppTp2 from "./AppTp2";
+import AppTp3 from "./AppTp3";
+import AppTp4 from "./AppTp4";
+import AppTp5 from "./AppTp5";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const element = document.getElementById("root");
+const root = ReactDOM.createRoot(element);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// root.render(<AppTp1 />);
+// root.render(<AppTp2 />);
+// root.render(<AppTp3 />);
+// root.render(<AppTp4 />);
+root.render(<AppTp5 />);

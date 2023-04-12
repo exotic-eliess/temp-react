@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Game_Holder {
+  font-family: sans-serif;
+  min-height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #cd82e7;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.Game_Holder > img {
+  width: 100%;
+  max-width: 125px;
+}
+
+.Game_Holder > button {
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.Game_Holder > p {
+  text-align: center;
+}
